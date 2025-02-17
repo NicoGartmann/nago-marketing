@@ -7,7 +7,7 @@ export default function Aboutme({
     id: string
 }) {
     return (
-        <div>
+        <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start" id={id}>
             <h2>Über Mich</h2>
             <p>Ich gehe nun seit mittlerweile 4 Jahren meiner Leidenschaft nach:</p>
             <p>Professionelles Marketing</p>
