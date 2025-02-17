@@ -4,8 +4,11 @@ export default function Services({
     id: string
 }) {
     return (
-        <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start" id={id}>
-            <h2>Services</h2>
+        <div 
+            id={id}
+            className="flex flex-col gap-8 row-start-2" 
+        >
+            <h2 className="flex justify-center">Services</h2>
 
             <h3>Marketingberatung</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
