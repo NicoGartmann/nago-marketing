@@ -1,12 +1,14 @@
 export default function Footer() {
     return (
-        <div>
-            <div>
-                Kontakt
+        <footer className="flex justify-center mb-2">
+            <div className="flex gap-6">
+                <div>
+                    Kontakt
+                </div>
+                <div>
+                    Logo
+                </div>
             </div>
-            <div>
-                Logo
-            </div>
-        </div>
+        </footer>
     )
 }
