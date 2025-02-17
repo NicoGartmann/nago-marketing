@@ -6,7 +6,7 @@ export default function Welcome() {
         <div className="flex justify-center items-center">
             <Card className="text-center max-w-lg">
                 <CardHeader>
-                    <CardTitle>Willkommen bei NAGO Marketing</CardTitle>
+                    <CardTitle className="text-center text-2xl font-bold">Willkommen bei NAGO Marketing</CardTitle>
                 </CardHeader>
                 <CardContent>
                     <p>Erhalte eine hochqualitative Marketingberatung um DEIN Unternehmen auf das nächste
