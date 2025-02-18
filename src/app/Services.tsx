@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function Services({ id }: { id: string }) {
@@ -32,6 +33,13 @@ export default function Services({ id }: { id: string }) {
 
                 <h3 className="text-xl font-semibold mt-6">Avatar Hacking</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
+
+            <div className="text-center">
+                <p>Du hast ein anderes Anliegen? Buche einfach ein persönliches Gespräch um mehr Informationen zu erhalten</p>
+                <Button className="mt-4">
+                    Log Gehts
+                </Button>
             </div>
         </div>
     )
