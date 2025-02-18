@@ -7,13 +7,11 @@ export default function Aboutme({
     id: string
 }) {
     return (
-        <div 
-            id={id}
-            className="flex flex-col gap-8 row-start-2 items-center sm:items-center"
-        >
+        <div id={id} className="w-full flex flex-col gap-8">
+            <hr/>
             <h2 className="text-center text-2xl font-bold">Über Mich</h2>
-            <p>Ich gehe nun seit mittlerweile 4 Jahren meiner Leidenschaft nach:</p>
-            <p>Professionelles Marketing</p>
+            <p className="text-center">Ich gehe nun seit mittlerweile 4 Jahren meiner Leidenschaft nach:</p>
+            <p className="text-center">Professionelles Marketing</p>
 
             <Card>
                 <CardContent className="flex justify-center m-4">
