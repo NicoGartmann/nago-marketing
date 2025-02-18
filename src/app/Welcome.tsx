@@ -14,9 +14,9 @@ export default function Welcome() {
                     
                     <p className="mt-4">Erfahre mehr über unseren Service oder Vereinbare ein unverbindliches Erstgespräch!</p>
                 </CardContent>
-                <CardFooter className="flex justify-center gap-4">
-                    <Button>Vereinbare ein Gespräch</Button>
-                    <Button>Schreibe eine Nachricht</Button>
+                <CardFooter className="w-full flex justify-center gap-4">
+                    <Button className="w-1/3">Vereinbare ein Gespräch</Button>
+                    <Button className="w-1/3">Schreibe eine Nachricht</Button>
                 </CardFooter>
             </Card>  
         </div>
