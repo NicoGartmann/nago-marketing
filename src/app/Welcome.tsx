@@ -3,12 +3,12 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 
 export default function Welcome() {
     return (
-        <div className="flex justify-center items-center">
-            <Card className="text-center max-w-lg">
+        <div className="w-full">
+            <Card>
                 <CardHeader>
                     <CardTitle className="text-center text-2xl font-bold">Willkommen bei NAGO Marketing</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="text-center">
                     <p>Erhalte eine hochqualitative Marketingberatung um DEIN Unternehmen auf das nächste
                     Level zu heben! Professionell und auf dich zugeschnitten.</p>
                     
